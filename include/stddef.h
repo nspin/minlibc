@@ -7,9 +7,15 @@
 #ifndef MINLIBC_STDDEF_H
 #define MINLIBC_STDDEF_H
 
+#ifndef NULL
+#define NULL 0
+#endif
+
 typedef int               ptrdiff_t;
 
 typedef unsigned long int size_t;
 typedef signed   long int ssize_t;
+
+typedef               int wchar_t;
 
 #endif

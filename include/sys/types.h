@@ -17,4 +17,9 @@ typedef unsigned      int uid_t;
 typedef unsigned      int gid_t;
 typedef unsigned      int pid_t;
 
+typedef unsigned          useconds_t;
+typedef               int sig_atomic_t;
+typedef              long clock_t;
+
+
 #endif
