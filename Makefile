@@ -1,6 +1,6 @@
 C_FILES := $(wildcard *.c)
 O_FILES := $(patsubst %.c,%.o,$(C_FILES))
-LIBRARY := libminlibc.a
+LIBRARY := libc.a
 
 all: $(LIBRARY)
 
