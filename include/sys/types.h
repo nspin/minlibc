@@ -9,6 +9,8 @@
 
 #include <stddef.h>
 
+typedef signed   long int ssize_t;
+
 typedef signed        int mode_t;
 typedef signed   long int off_t;
 typedef unsigned long int dev_t;
@@ -20,6 +22,5 @@ typedef unsigned      int pid_t;
 typedef unsigned          useconds_t;
 typedef               int sig_atomic_t;
 typedef              long clock_t;
-
 
 #endif
